@@ -9,12 +9,12 @@ const Footer = () => {
         Jaydeep Bariya
       </div>
 
-      <div className="flex gap-x-[2rem] my-3">
-        <a href="#about" >About</a>
-        <a href="#skills" >Skills</a>
-        <a href="#projects" >Projects</a>
-        <a href="#experience" >Experience</a>
-        <a href="#contact" >Contact</a>
+      <div className="flex gap-x-[2rem] my-3 max-md:flex-col">
+        <a href="#about" className="my-4">About</a>
+        <a href="#skills" className="my-4">Skills</a>
+        <a href="#projects" className="my-4">Projects</a>
+        <a href="#experience" className="my-4">Experience</a>
+        <a href="#contact" className="my-4">Contact</a>
       </div>
 
       <div className="flex gap-x-4 my-4">

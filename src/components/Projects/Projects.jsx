@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
 
       <div className="w-full py-6 flex flex-col justify-center items-center">
-        <div className="mx-auto my-3">
+        <div className="mx-auto my-3 max-md:flex max-md:flex-col max-md:gap-4">
           {groups.map((groupName, index) => (
             <button
               key={index}
@@ -34,7 +34,7 @@ const Projects = () => {
             return (
               <div key={index} >
                 {projectGroup.group === activeGroup ? (
-                  <div className="flex justify-center items-center gap-4">
+                  <div className="flex justify-center items-center gap-4 max-md:flex-col max-md:gap-y-8">
                     {projectGroup.projects.map((project, index) => {
                       return (
                         <div key={index} className="max-w-[350px] flex flex-col justify-center items-start gap-4 outline outline-[1px] rounded-md hover:shadow-md hover:shadow-blue-500 hover:scale-105 duration-200 transition-all">

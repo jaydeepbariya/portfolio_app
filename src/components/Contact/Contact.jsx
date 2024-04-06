@@ -11,7 +11,7 @@ const Contact = () => {
         Please feel free to reach out to me in case of any opportunity or questions
       </p>
 
-      <div className='w-3/4 my-8'>
+      <div className='w-3/4 my-8 max-md:w-full'>
         <ContactForm />
       </div>
 

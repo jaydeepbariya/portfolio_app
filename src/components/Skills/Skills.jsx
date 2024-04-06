@@ -14,7 +14,7 @@ const Skills = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-2 grid-rows-2 gap-6">
+      <div className="grid grid-cols-2 grid-rows-2 gap-12 max-md:grid-cols-1 my-8">
           {
             skillsArray.map((skillData, index) => {
               return (<SkillsCard skillData={skillData} key={index} />);

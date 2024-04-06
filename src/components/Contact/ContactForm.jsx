@@ -71,7 +71,7 @@ const ContactForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="w-3/4 mx-auto outline outline-[1px] outline-blue-500 max-w-lg p-4 rounded-md"
+      className="w-3/4 mx-auto outline outline-[1px] outline-blue-500 max-w-lg p-4 rounded-md max-md:w-full"
       ref={form}
     >
       <div className="mb-4">
