@@ -39,7 +39,7 @@ function AppContent() {
         }`}
         onClick={toggleTheme}
       >
-        {!darkMode ? <MdDarkMode size={45} /> : <MdOutlineDarkMode size={45} />}
+        {!darkMode ? <MdDarkMode size={35} /> : <MdOutlineDarkMode size={35} />}
       </button>
     </div>
   );

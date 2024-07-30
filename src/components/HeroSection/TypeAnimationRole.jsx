@@ -4,19 +4,23 @@ import { TypeAnimation } from 'react-type-animation';
 
 const TypeAnimationRole = () => {
   return (
-    <div className="my-4">
+    <div className="my-4 mx-auto">
       <div>
         <TypeAnimation
           preRenderFirstString={true}
           sequence={[
             500,
-            "I am a MERN Stack Developer", 
+            "MERN Stack Developer", 
             1000,
-            "I am a Front End Developer",
+            "Frontend Developer",
             1000,
-            "I am a Backend Developer",
+            "Backend Developer",
             1000,
-            "I am a Software Developer",
+            "Software Developer",
+            1000,
+            "Java Backend Developer",
+            1000,
+            "Java Full Stack Developer",
             500,
           ]}
           speed={50}

@@ -7,13 +7,10 @@ export const Experience = () => {
       <div className="w-full flex flex-col items-center">
         <h2 className="text-2xl font-semibold">Experience</h2>
         <div className="h-[2px] w-1/5 my-4 bg-blue-500"></div>
-        <p className="text-md my-3">
-          My work experience as a software developement engineer in past 2 years
-        </p>
       </div>
 
-      <div className="w-full my-4 flex flex-col justify-center items-center">
-        <div className="w-2/5 flex flex-col items-center my-3 outline outline-[1px] outline-blue-500 rounded-md hover:outline-[2px] p-4 group hover:scale-105 hover:shadow-blue-500 hover:shadow-md transition-all duration-200 max-md:w-full">
+      <div className="w-11/12 my-4 flex flex-col justify-center items-center">
+        <div className="w-2/5 flex flex-col items-center my-3 outline outline-[1px] outline-blue-500 rounded-md hover:outline-[2px] p-4 group hover:shadow-blue-500 hover:shadow-sm transition-all duration-200 max-md:w-full">
           <img
             src={infosysLogo}
             alt="company logo"

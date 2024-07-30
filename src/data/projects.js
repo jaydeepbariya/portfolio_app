@@ -17,11 +17,7 @@ export const projects = [
         id: "project1",
         image: studynotionImg,
         skills: [
-          "HTML5",
-          "JavaScript",
-          "Tailwind CSS",
           "React",
-          "Redux",
           "Node.js",
           "Express",
           "MongoDB",
@@ -37,8 +33,8 @@ export const projects = [
     projects: [
       {
         id: "project2",
-        image:shoppingCartImg,
-        skills: ["HTML5", "JavaScript", "Tailwind CSS", "React", "Redux"],
+        image: shoppingCartImg,
+        skills: ["JavaScript", "Tailwind CSS", "React", "Redux"],
         name: "ShoppingCart App",
         visitLink: "https://shopping-cart-redux-gilt.vercel.app/",
         sourceCodeLink:
@@ -90,7 +86,7 @@ export const projects = [
         id: "project7",
         skills: ["HTML5", "Tailwind"],
         name: "Discord Clone",
-        image: discordCloneImg, 
+        image: discordCloneImg,
         visitLink: "https://delightful-strudel-75e683.netlify.app/",
         sourceCodeLink: "https://github.com/jaydeepbariya/Discord_Clone",
       },
@@ -129,9 +125,9 @@ export const projects = [
 ];
 
 export const groups = [
-    "MERN Full Stack",
-    "ReactJS",
-    "Javascript",
-    "Tailwind",
-    "HTML and CSS"
+  "MERN Full Stack",
+  "ReactJS",
+  "Javascript",
+  "Tailwind",
+  "HTML and CSS"
 ];
